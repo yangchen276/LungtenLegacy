@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lungten Legacy</title>
+        <link href="ccd.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">LungtenLegacy</div>
+            <ul class="nav-links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="about us.html">about us</a></li>
+                <li><a href="account.html">account</a></li>
+            </ul>
+        </nav>
+        <div class="account-container">
+
+    <h1>My Account</h1>
+    <p>Login to continue shopping</p>
+
+    <form>
+
+        <div class="input-box">
+            <input type="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-box">
+            <input type="password" placeholder="Password" required>
+        </div>
+
+        <button type="submit" class="login-btn">
+            LOGIN
+        </button>
+
+    </form>
+
+    <div class="extra-links">
+        <a href="#">Forgot Password?</a>
+        <a href="#">Create Account</a>
+    </div>
+
+</div>
+    </body>
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg, #f7e7ce, #d9b99b, #8c5e58);
+}
+
+.account-container{
+    width:90%;
+    max-width:420px;
+    background:#fffaf4;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+h1{
+    color:#5a3e36;
+    margin-bottom:10px;
+    font-size:38px;
+}
+
+p{
+    color:#7a5c58;
+    margin-bottom:25px;
+}
+
+.input-box{
+    width:100%;
+    margin:15px 0;
+}
+
+.input-box input{
+    width:100%;
+    padding:14px;
+    border:none;
+    outline:none;
+    border-radius:15px;
+    background:#f4e5d8;
+    font-size:16px;
+    color:#5a3e36;
+}
+
+.input-box input:focus{
+    background:#ecd2bf;
+}
+
+.login-btn{
+    width:100%;
+    margin-top:15px;
+    padding:14px;
+    border:none;
+    border-radius:50px;
+    background:linear-gradient(135deg, #c97b63, #8c5e58);
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login-btn:hover{
+    transform:translateY(-4px) scale(1.03);
+    box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+.extra-links{
+    margin-top:20px;
+}
+
+.extra-links a{
+    text-decoration:none;
+    color:#8c5e58;
+    margin:0 10px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.extra-links a:hover{
+    color:#c97b63;
+}
+
+nav{
+    position:absolute;
+    top:20px;
+    right:30px;
+}
+
+nav a{
+    text-decoration:none;
+    margin-left:20px;
+    color:#fffaf4;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#f7c59f;
+}
+
+</style>
+    
+</html>
